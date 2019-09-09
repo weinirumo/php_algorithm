@@ -5,6 +5,11 @@
  * Time: 22:25
  */
 
+/**
+ * bubbleSort
+ * @param array $arr
+ * @return array
+ */
 function bubbleSort(array $arr): array
 {
     $len = count($arr);
@@ -23,7 +28,11 @@ function bubbleSort(array $arr): array
 }
 
 
-
+/**
+ * another way to implements bubble sort
+ * @param array $arr
+ * @return array
+ */
 function bubbleSort2(array $arr): array
 {
     $len = count($arr);
@@ -39,9 +48,3 @@ function bubbleSort2(array $arr): array
     }
     return $arr;
 }
-
-
-$arr = [8, 3, 6, 9, 10, 2, 5];
-//showBubbleSort($arr);
-
-showBubbleSort2($arr);
